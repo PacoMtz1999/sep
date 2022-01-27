@@ -1,0 +1,28 @@
+body {
+    margin: 1rem auto;
+    overflow-x: hidden;
+    background-color: rgb(201, 207, 209);
+}
+
+nav.navbar{
+    background-color: rgb(138, 23, 3);
+}
+
+.carousel{
+    margin: 1rem auto;
+}
+
+.container input {
+    margin: 1rem auto;
+    float: right;
+    margin-right: 0px;
+    margin-top:0;
+}
+
+.container label {
+    float: right;
+}
+
+.container button {
+    background-color:rgb(247, 209, 252)
+}
