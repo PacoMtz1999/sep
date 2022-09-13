@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <title>Home - SEE</title>
+    <title><?=$title?></title>
+    
 </head>
 
 <body>
@@ -31,21 +32,21 @@
         </symbol>
     </svg>
 
-    <!--Barra de navegacion-->
+    <!--Barra de navegación-->
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <a href="index.php" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <img src="./img/icons/favicon.ico" alt="Logo del gobierno del estado">
                 <span class="fs-4">Secretaría de Educación</span>
             </a>
 
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="index.php" class="nav-link active" aria-current="page">Inicio</a></li>
-                <li class="nav-item"><a href="tablas.html" class="nav-link">Tablas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Tablas</a></li>
+                <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="faqs.php" class="nav-link">FAQs</a></li>
+                <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
             </ul>
         </header>
     </div>
-    <!--Fin barra de navegacion-->
+    <!--Fin barra de navegación-->

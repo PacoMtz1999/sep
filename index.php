@@ -1,4 +1,10 @@
-<?php require('./navbar.php'); ?>
+<?php
+
+$title = "Inicio";
+
+require('./navbar.php');
+
+?>
 
 <div class="container">
     <h1 class="text-center">Departamento de estadística.<br>Sistema de Explotación de Bases de Datos
